@@ -1,0 +1,9 @@
+# Diretrizes de contribuição
+
+1. Bifurque o repositório e altere um arquivo
+2. Depois disso, abra uma solicitação pull
+3. Aguarde a revisão da solicitação pull (mesclada, fechada, etc.)
+
+Em sua solicitação pull, não faça alterações inadequadas.
+Além disso, não adicione informações irrelevantes que não estejam relacionadas ao assunto deste repositório.
+Por último, não faça vários pull requests, tente fazer apenas 1 para uma alteração específica que você fizer.
