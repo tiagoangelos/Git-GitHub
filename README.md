@@ -6,7 +6,7 @@ O Git é um sistema de controle de versão de códigos. Gerencia ramificações 
 
 ## Baixar
 
-Para baixar o git em seu sistema é bem simples basta acessar o site oficial, baixar e instalar o executavel pronto: <a href="https://git-scm.com/">[Site Oficial].</a>
+Para baixar o git em seu sistema é bem simples basta acessar o site oficial, baixar e instalar Acesse: <a href="https://git-scm.com/">[Site Oficial].</a>
 
 ## SSH - Git:
 
