@@ -1,8 +1,8 @@
-# Git <img src="./images/git-icon(50x50).png" width="50px" height="50px"></img>
+# O Quê é Git <img src="./images/git-icon(50x50).png" width="50px" height="50px"></img>
 
 O Git é um sistema de controle de versão de códigos. Gerencia ramificações feitas por diferentes pessoas de um time de modo a manter a ordem e integração de todas as partes. Ou seja, mesmo que várias pessoas estejam trabalhando em um programa ao mesmo tempo, ainda é possível controlar as mudanças para evitar erros.
 
-# GitHub <img src="./images/github-icon(50x50).png" width="50px" hight="50px"></img>
+# O Quê é GitHub <img src="./images/github-icon(50x50).png" width="50px" hight="50px"></img>
 
 GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
 
@@ -12,7 +12,7 @@ GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle 
 
 Para baixar o git em seu sistema é bem simples basta acessar o site oficial, baixar e seguir o instalador normalmente Acesse o site oficial: <a href="https://git-scm.com/">[Site Oficial].</a>
 
-## SSH - Git  <img src="./images/ssh-key-icon(50x50.png).png" width="50px" height="50px"></img>
+## Configurar Chave SSH <img src="./images/ssh-key-icon(50x50.png).png" width="50px" height="50px"></img>
 
 SSH é um protocolo, para quê você possa se conectar a servidores e serviços remotos e se autenticar neles. Com chaves SSH, você pode se conectar a GitHub sem fornecer seu nome de usuário e personal access token em cada visita. Você também pode usar uma chave SSH para assinar confirmações.
 
