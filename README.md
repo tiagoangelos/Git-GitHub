@@ -82,6 +82,7 @@ git help <qualquer_comando_git>
 | git rm meu_arquivo.txt | git rm -r diretorio |
 | git log | Exibir histórico |
 | git log -p -2 | Exibir histórico com diff das duas últimas alterações |
+| git log --oneline | Exibir resumo do histórico de forma resumida |
 | git log --stat | Exibir resumo do histórico (hash completa, autor, data, comentário e qtde de alterações (+/-)) |
 | git log --pretty=oneline | Exibir informações resumidas em uma linha (hash completa e comentário) |
 | git log -- <caminho_do_arquivo> | Exibir histório de um arquivo específico |
@@ -89,3 +90,41 @@ git help <qualquer_comando_git>
 | git log --author=usuario | Exibir histório de um determinado autor |
 | git checkout codigo-do-comit | Desfazendo alterações Locais |
 | git reset codigo-do-comit | Desfazendo alterações Remota |
+
+### Repositório Remoto
+
+| Comando | Descrição |
+| --- | --- |
+| git remote ou git remote -v | Exibir os repositórios remotos |
+| git remote add origin git@github.com:leocomelli/curso-git.git | Vincular repositório local com um repositório remoto |
+| git remote show origin | Exibir informações dos repositórios remotos |
+| git remote rename origin curso-git | Renomear um repositório remoto |
+| git remote rm curso-git | Desvincular um repositório remoto |
+| git push -u origin master | Enviar arquivos/diretórios para o repositório remoto |
+| git push | Os demais pushes não precisam dessa informação |
+| git pull | Atualizar os arquivos no branch atual |
+| git fetch | Buscar as alterações, mas não aplica-las no branch atual |
+| git clone git@github.com:leocomelli/curso-git.git | Clonar um repositório remoto já existente |
+| git tag vs-1.1 | Criando uma tag leve |
+| git tag -a vs-1.1 -m "Minha versão 1.1" | Criando uma tag assinada |
+| git tag -a vs-1.2 9fceb02 | Criando tag a partir de um commit (hash) |
+| git push origin vs-1.2 | Criando tags no repositório remoto |
+| git push origin --tags | Criando todas as tags locais no repositório remoto |
+| git branch nome-da-branch | Criando um novo branch |
+| git checkout nome-da-branch | Trocando para um branch existente |
+| git checkout -b nome-da-branch | Criar um novo branch e trocar |
+| git checkout master | Voltar para o branch principal (master) |
+| git merge nome-da-branch | Resolver merge entre os branches |
+| git branch -d nome-da-branch | Apagando um branch |
+| git branch | Listar branches |
+| git branch -v | Listar branches com informações dos últimos commits |
+| git branch --merged | Listar branches que já foram fundidos (merged) com o master |
+| git branch --no-merged | Listar branches que não foram fundidos (merged) com o master |
+
+## Curso de Git e Github 
+
+Recomendado Acese: <a href="https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA">Canal do Youtube</a>
+
+## Contribuição <img src="./images/pull-request-icon(50x50).png" width="50px" height="50px"></img>
+
+> Para corrigir ou adicionar algum comando fique avontade para fazer fork! pull-request-me!
