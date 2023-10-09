@@ -66,4 +66,26 @@ git help <qualquer_comando_git>
 
 ## Comandos <img src="./images/comandos-icon(50x50).png" width="50px" height="50px"></img>
 
+### Repositório Local
+
 | Comando | Descrição |
+| --- | --- |
+|git init | Criar novo repositório |
+|git status | Verificar estado dos arquivos |
+|git add meu_arquivo.txt | Adicionar arquivo/diretório (staged area) |
+|git add meu_diretorio | Adicionar um diretório em específico |
+| git add . | Adicionar todos os arquivos/diretórios |
+| git add -f arquivo_no_gitignore.txt | Adicionar um arquivo que esta listado no .gitignore (geral ou do repositório) |
+| git commit meu_arquivo.txt | Comitar um arquivo |
+| git commit meu_arquivo.txt meu_outro_arquivo.txt | Comitar vários arquivos |
+| git commit meuarquivo.txt -m "minha mensagem de commit" | Comitar informando mensagem |
+| git rm meu_arquivo.txt | git rm -r diretorio |
+| git log | Exibir histórico |
+| git log -p -2 | Exibir histórico com diff das duas últimas alterações |
+| git log --stat | Exibir resumo do histórico (hash completa, autor, data, comentário e qtde de alterações (+/-)) |
+| git log --pretty=oneline | Exibir informações resumidas em uma linha (hash completa e comentário) |
+| git log -- <caminho_do_arquivo> | Exibir histório de um arquivo específico |
+| git log --summary -S<palavra> [<caminho_do_arquivo>] | Exibir histórico de um arquivo específico que contêm uma determinada palavra |
+| git log --author=usuario | Exibir histório de um determinado autor |
+| git checkout codigo-do-comit | Desfazendo alterações Locais |
+| git reset codigo-do-comit | Desfazendo alterações Remota |
